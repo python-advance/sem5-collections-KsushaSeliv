@@ -41,6 +41,6 @@ i = 0
 while i < 10:
 	if array[i] < 0:
 		sortarray4.append(array[i])
-	i += 1
+	i = i+1
 print(list(sortarray4))
 print()
