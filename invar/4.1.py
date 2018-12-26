@@ -58,3 +58,6 @@ def sortarray4(array):
 
 print(sortarray4(array))
 print()
+
+
+![alt](https://github.com/python-advance/sem5-collections-KsushaSeliv/blob/master/invar/2.JPG)
