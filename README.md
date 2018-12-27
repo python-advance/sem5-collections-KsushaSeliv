@@ -1,5 +1,5 @@
 # sem5-collections
-<h1>Инвариативное задание</h1>
+<h1>Инвариатное задание</h1>
 4.1. Создание программы по заполнению массивов случайными значениями. Сортировка значений в списке методом вставки, плавной сортировки, с помощью встроенных функций языка.
 
 ```python
@@ -104,3 +104,32 @@ print(array4)
 ```
 
 ![alt](https://github.com/python-advance/sem5-collections-KsushaSeliv/blob/master/invar/18.JPG)
+
+<h1>Вариативное задание</h1>
+Создание программы по разделению одного словаря на произвольное количество словарей по определенному критерию, задаваемому в виде лямбда функции.
+
+```python
+import numpy as np
+import random
+
+array = np.random.randint(0, 50, 10) #его будем делить на два
+print(array)  
+
+array1 = list(filter(lambda x: not x%2, array)) #сюда запихнём те элементы, которые делятся на два без остатка
+array2 = list(filter(lambda x: x%2, array)) #соответсвенно, сюда наоборот
+
+print(array1)
+print(array2)
+```
+![alt](https://github.com/python-advance/sem5-collections-KsushaSeliv/blob/master/var/19.JPG)
+
+
+
+
+
+
+
+
+
+
+
